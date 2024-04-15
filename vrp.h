@@ -71,7 +71,7 @@ double tsp(const vector<Customer>& customers, const vector<int>& subset, int sta
 //     return nearest;
 // }
 
-void divideConquer(const vector<Customer>& customers, vector<int>& vehicles) {
+void divideConquer(const vector<Customer>& customers, vector<Vehicle>& vehicles) {
     vector<vector<int>> clusters(num_vehicle);
 
     for (int i = 1; i < num_customer; ++i) {

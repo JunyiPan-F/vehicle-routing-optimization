@@ -7,7 +7,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     vector<Customer> customers = {
         {0, 0, 0, 0, 0, 0, 0},
         {1, 1, 1, 1, 1, 1, 1},
@@ -18,13 +19,11 @@ int main() {
         {6, 6, 6, 6, 6, 6, 6},
         {7, 7, 7, 7, 7, 7, 7},
         {8, 8, 8, 8, 8, 8, 8},
-        {9, 9, 9, 9, 9, 9, 9}
-    };
+        {9, 9, 9, 9, 9, 9, 9}};
     vector<Vehicle> vehicles = {
         {10, 0, 0, 0, {}},
         {10, 0, 0, 0, {}},
-        {10, 0, 0, 0, {}}
-    };
+        {10, 0, 0, 0, {}}};
 
     divideConquer(customers, vehicles);
 
